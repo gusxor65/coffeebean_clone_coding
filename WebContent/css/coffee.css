@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+.top1 .icon1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(238, 238, 238);
+
+}
+
+.top1 .icon1 span {
+    margin-left: -330px;
+    cursor: pointer;
+    font-size: 14px;
+    padding-right: 350px;
+}
+
+.top1 .icon i {
+    color: #ff8c00;
+}
+
+.top1 .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 30px;
+    padding-right: 440px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: 'NanumBarunGothic';
+}
+
+.top1 .icon img {
+    padding-left: 300px;
+    height: 80px;
+}
+
+/** 완료 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.MD .md_pick {
+    text-align: center;
+    color: #D2691E;
+    font-style: italic;
+    font-size: 24px;
+    font-family: 'Nanum Gothic';
+    padding-top: 48px;
+}
+
+.pick_info {
+    width: 25%;
+    float: left;
+    padding-left: 50px;
+}
+
+.pick_info .info_menu_price span {
+    display: block;
+    font-family: 'Nanum Gothic';
+    font-weight: bold;
+}
+
+/** 완료 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.new_name {
+    text-align: center;
+    color: #D2691E;
+    font-style: italic;
+    font-size: 24px;
+    font-family: 'Nanum Gothic';
+    padding-top: 800px;
+}
+
+.new_info {
+    width: 33%;
+    float: left;
+
+}
+
+.new_info img {
+    width: 100%;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}
+
+.insta .hashtag {
+    margin: auto;
+    font-size: 24px;
+    font-family: 'NanumBarunGothic';
+    font-weight: 400;
+
+}
