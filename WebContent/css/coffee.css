@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+/** 전체 밑줄 제거 */
+* {
+    text-decoration: none;
+}
+
+/** 상단 메뉴 위치 조정 및 굵기 및 색상 조정 */
 .top1 .icon1 {
     display: flex;
     justify-content: flex-end;
@@ -8,7 +14,7 @@
     background: rgb(238, 238, 238);
 
 }
-
+/** 상단 메뉴 텍스트 위치 조정 및 글자 크기 조정 */
 .top1 .icon1 span {
     margin-left: -330px;
     cursor: pointer;
@@ -16,10 +22,11 @@
     padding-right: 350px;
 }
 
+/** 돋보기 아이콘 색상 변경 */
 .top1 .icon i {
     color: #ff8c00;
 }
-
+/* 상단 메뉴 위치 조정 및 글자 크기,폰트 굵기 조정 */
 .top1 .icon {
     display: flex;
     justify-content: space-between;
@@ -32,13 +39,14 @@
     font-weight: bold;
     font-family: 'NanumBarunGothic';
 }
-
+/* 상단메뉴 이미지 크기 및 위치 조정 */
 .top1 .icon img {
     padding-left: 300px;
     height: 80px;
 }
 
 /** 완료 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* 중간 배너 글자 유형,폰트,크기 조정 및 색상,위치 조정 */
 .MD .md_pick {
     text-align: center;
     color: #D2691E;
@@ -47,21 +55,22 @@
     font-family: 'Nanum Gothic';
     padding-top: 48px;
 }
-
+/* 중간 배너 사진 위치 조정 및 간격 조정 */
 .pick_info {
     width: 25%;
     float: left;
     padding-left: 50px;
 }
-
+/* 중간배너 텍스트 폰트 및 굵기 조정 */
 .pick_info .info_menu_price span {
     display: block;
     font-family: 'Nanum Gothic';
     font-weight: bold;
 }
 
-/** 완료 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* 완료 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
+/* 중간배너2 위치 중앙 조정 및 색상,크기,폰트 간격 조정 */
 .new_name {
     text-align: center;
     color: #D2691E;
@@ -71,27 +80,140 @@
     padding-top: 800px;
 }
 
+/* 중간배너2 간격 조정 위치 조정 */
 .new_info {
     width: 33%;
     float: left;
-
+	
 }
-
-.new_info img {
-    width: 100%;
-}
-
+/* float 마감제 */
 .clear:after {
     content: '';
     display: block;
     clear: both;
     float: none;
 }
+/* 중간배너2 사진 간격 조정 및 사진 크기 조정 */
+.new_info img {
+    width: 80%;
+    padding-left: 120px;
+}
+/* 중간배너2 텍스트 중앙 위치 조정 및 글자 크기,색상 조정 */
+.new_info span {
+	display:block;
+	text-align: center;
+	color: #D2691E;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Nanum Gothic';
+}
 
+/* 인스타클래스 배경색상 조정 */
+.insta {
+	background-color: #9932CC;
+}
+
+/* 인스타 텍스트파일 위치 조정 및 폰트,폰트크기, 간격, 조정 */
 .insta .hashtag {
-    margin: auto;
+    margin-top: 2600px;
+    text-align:center;
     font-size: 24px;
     font-family: 'NanumBarunGothic';
     font-weight: 400;
+	color: white;
+	padding-top: 45px;
+	padding-bottom: 30px;
+}
 
+/*인스타 사진 위치 조정 */
+.insta ul {
+	overflow: hidden;
+	width: 1200px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+/* 인스타 사진 파일 */
+#insta_info li {
+	float: left;
+	width: 200px;
+}
+/* float 마감제 */
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}
+/* 인스타사진 크기 조정 */
+#insta_info img {
+	width: 205px;
+	height: 208px;
+}
+/* 수정해야함 */
+.insta .btn {
+	display:inline-block;
+	width:100%;
+	text-align: center;
+	font-size: 14px;
+	font-family:'NanumBarunGothic';
+	line-height: 40px;
+	color: white;
+	background: 	#FF8C00;
+	
+}
+/** 하단 메뉴 조정 */
+.footer {
+    width: 1200px;
+    margin: auto;
+}
+
+/** 하단메뉴 크기 조정 및 밑줄 추가 */
+.footer_menu {
+    overflow: hidden;
+    padding: 55px 0 50px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #A0522D;
+
+}
+
+/*하단메뉴 타이틀 폰트속성 적용 */
+.footer_title .title {
+    color: #D2691E;
+    margin-bottom: -18px;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+
+    /*하단 메뉴 타이틀>메뉴 속성 조정 */
+}
+
+.footer_menu ul {
+    width: 170px;
+    float: left;
+    font-size: 14px;
+}
+
+/*하단 메뉴 타이틀>위치 속성 조정 */
+#title_info li {
+    margin-top: 22px;
+    margin-bottom: -10px;
+}
+
+#title_info .title_special {
+    font-weight: bold;
+}
+
+.sns_icon {
+    width: 1200px;
+    margin: auto;
+}
+
+.bottom {
+    width: 1200px;
+    margin: auto;
+}
+
+.bottom_info {
+    width: 1200px;
+    margin: auto;
 }
