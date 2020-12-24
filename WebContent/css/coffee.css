@@ -4,6 +4,16 @@
 * {
     text-decoration: none;
 }
+/* 상단메뉴 fixed 고정 좌표 설정 */
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(238, 238, 238);
+    z-index: 999999;
+}
 
 /** 상단 메뉴 위치 조정 및 굵기 및 색상 조정 */
 .top1 .icon1 {
@@ -13,6 +23,10 @@
     border: 1px solid rgb(204, 204, 204);
     background: rgb(238, 238, 238);
 
+}
+
+.banner img {
+    padding-top: 120px;
 }
 /** 상단 메뉴 텍스트 위치 조정 및 글자 크기 조정 */
 .top1 .icon1 span {
@@ -45,7 +59,7 @@
     height: 80px;
 }
 
-/** 완료 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
 /* 중간 배너 글자 유형,폰트,크기 조정 및 색상,위치 조정 */
 .MD .md_pick {
     text-align: center;
@@ -57,55 +71,61 @@
 }
 /* 중간 배너 사진 위치 조정 및 간격 조정 */
 .pick_info {
-    width: 25%;
-    float: left;
-    padding-left: 50px;
-}
-/* 중간배너 텍스트 폰트 및 굵기 조정 */
-.pick_info .info_menu_price span {
-    display: block;
-    font-family: 'Nanum Gothic';
-    font-weight: bold;
+    width: 1200px;
+    margin: auto;
 }
 
-/* 완료 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* 중간 배너 메뉴 이름 간격 및 글자 조정 */
+.pick_info .name {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Nanum Gothic';
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/* 중간 배너 메뉴 이름2 간격 및 글자 조정 */
+.pick_info .num {
+    display: block;
+    text-align: center;
+    font-family: 'Nanum Gothic';
+}
+/* 중간 배너 가격 간격 및 글자 조정 */
+.pick_info .price {
+    display: block;
+    text-align: center;
+    color: #D2691E;
+    font-family: 'Nanum Gothic';
+    margin-bottom: 80px;
+}
 
 /* 중간배너2 위치 중앙 조정 및 색상,크기,폰트 간격 조정 */
 .new_name {
     text-align: center;
     color: #D2691E;
-    font-style: italic;
+    font-weight:bold;
     font-size: 24px;
     font-family: 'Nanum Gothic';
-    padding-top: 800px;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 /* 중간배너2 간격 조정 위치 조정 */
 .new_info {
-    width: 33%;
-    float: left;
+    width: 1200px;
+    margin: auto;
 	
 }
-/* float 마감제 */
-.clear:after {
-    content: '';
+/*중간배너2 사진 설명 위치조정 및 글자 조정 */
+.new_info .new_name1 {
     display: block;
-    clear: both;
-    float: none;
-}
-/* 중간배너2 사진 간격 조정 및 사진 크기 조정 */
-.new_info img {
-    width: 80%;
-    padding-left: 120px;
-}
-/* 중간배너2 텍스트 중앙 위치 조정 및 글자 크기,색상 조정 */
-.new_info span {
-	display:block;
-	text-align: center;
-	color: #D2691E;
-    font-style: italic;
-    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:80px;
+    color: #D2691E;
     font-family: 'Nanum Gothic';
+    font-weight: bold;
 }
 
 /* 인스타클래스 배경색상 조정 */
@@ -115,7 +135,7 @@
 
 /* 인스타 텍스트파일 위치 조정 및 폰트,폰트크기, 간격, 조정 */
 .insta .hashtag {
-    margin-top: 2600px;
+    margin-top: 80px;
     text-align:center;
     font-size: 24px;
     font-family: 'NanumBarunGothic';
@@ -163,15 +183,17 @@
 }
 /** 하단 메뉴 조정 */
 .footer {
-    width: 1200px;
+    padding-left: 348px;
+    width: auto;
     margin: auto;
+    background-color: #DAD8D8;
 }
 
 /** 하단메뉴 크기 조정 및 밑줄 추가 */
 .footer_menu {
     overflow: hidden;
+    width: 1200px;
     padding: 55px 0 50px 0;
-    margin-bottom: 30px;
     border-bottom: 1px solid #A0522D;
 
 }
@@ -183,10 +205,8 @@
     font-style: italic;
     font-size: 18px;
     font-weight: 400;
-
-    /*하단 메뉴 타이틀>메뉴 속성 조정 */
 }
-
+/*하단 메뉴 타이틀>메뉴 속성 조정 */
 .footer_menu ul {
     width: 170px;
     float: left;
@@ -198,22 +218,41 @@
     margin-top: 22px;
     margin-bottom: -10px;
 }
-
+/*하단메뉴 특정 타이틀 글자굵기 조정*/
 #title_info .title_special {
     font-weight: bold;
 }
-
+/** a링크 눌러졌을떄, 기본 상태 색상 변경 */
+#title_info a:link , a:visited {
+	color: #1A0000;
+}
+/*하단 메뉴 아이콘*/
 .sns_icon {
-    width: 1200px;
+    padding-left: 1360px;
+    width: auto;
     margin: auto;
+    font-size: 34px;
+    background-color: #DAD8D8;
 }
-
+/*하단 메뉴 정보 */
 .bottom {
-    width: 1200px;
+    padding-left: 348px;
+    padding-bottom: 20px;
+    width: auto;
     margin: auto;
+    font-size: 14px;
+    background-color: #DAD8D8;
 }
-
+/*하단 메뉴 정보2*/
 .bottom_info {
-    width: 1200px;
+    padding-left: 348px;
+    width: auto;
     margin: auto;
+    font-size: 14px;
+    background-color: #DAD8D8;
+}
+/*하단 특정 메뉴 글자 속성 */
+.bottom .special_color {
+    color: #D2691E;
+    font-weight: bold;
 }
