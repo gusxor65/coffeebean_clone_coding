@@ -4,6 +4,119 @@
 * {
     text-decoration: none;
 }
+/** 상단 메뉴 마우스 올렸을시 색상 변경 */
+.icon a:hover {
+    color: #ff8c00;
+}
+/** 상단메뉴 사이드 효과 */
+.sub {
+    position: absolute;
+    z-index: 1000;
+}
+/** 디스플레이 효과 부여 */
+.sub {
+    width: 1200px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+    margin-top: 44px;
+    position: absolute;
+    z-index: 99999;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+/** 상단메뉴2 사이드 효과 */
+.sub2 {
+    position: absolute;
+    z-index: 1000;
+}
+
+/** 상단메뉴2 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub2 {
+    width: 630px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+    margin-top: 44px;
+    position: absolute;
+    z-index: 99999;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+/** 상단메뉴3 사이드 효과 */
+.sub3 {
+    position: absolute;
+    z-index: 1000;
+}
+
+/** 상단메뉴3 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub3 {
+    width: 880px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+    margin-top: 44px;
+    position: absolute;
+    z-index: 99999;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+/** 상단메뉴4 사이드 효과 */
+.sub4 {
+    position: absolute;
+    z-index: 1000;
+}
+
+/** 상단메뉴4 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub4 {
+    width: 250px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+    margin-top: 44px;
+    position: absolute;
+    z-index: 99999;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+/** 상단메뉴5 사이드 효과 */
+.sub5 {
+    position: absolute;
+    z-index: 1000;
+}
+
+/** 상단메뉴3 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub5 {
+    width: 880px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+    margin-top: 44px;
+    position: absolute;
+    z-index: 99999;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+/** 상단메뉴6 사이드 효과 */
+.sub6 {
+    position: absolute;
+    z-index: 1000;
+}
+
+/** 상단메뉴4 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub6 {
+    width: 250px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+    margin-top: 44px;
+    position: absolute;
+    z-index: 99999;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+.menu-item {
+    position: relative;
+}
 /* 상단메뉴 fixed 고정 좌표 설정 */
 .top {
     position: fixed;
@@ -22,6 +135,7 @@
     padding: 10px 10px 10px 20px;
     border: 1px solid rgb(204, 204, 204);
     background: rgb(238, 238, 238);
+    width:auto;
 
 }
 
@@ -59,7 +173,65 @@
     height: 80px;
 }
 
+/** 상단 메뉴 슬라이드 위치 및 속성 조정 */
+.sub_list {
+    display: block;
+    width: 200px;
+    padding: 40px 30px;
+    float: left;
+}
 
+/** 상단 메뉴 이름 크기 및 간격 조정 */
+.sub .menu_name {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+/** 상단 메뉴2 이름 크기 및 간격 조정 */
+.sub2 .menu_name {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/** 상단 메뉴3 이름 크기 및 간격 조정 */
+.sub3 .menu_name {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/** 상단 메뉴4 이름 크기 및 간격 조정 */
+.sub4 .menu_name {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/** 상단 메뉴5 이름 크기 및 간격 조정 */
+.sub5 .menu_name {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/** 상단 메뉴 6 폰트 굵기 설정 */
+.sub6 .sub_title {
+    font-weight: normal;
+}
+/** 상단 메뉴 특정메뉴 이름 크기 및 색상 간격조정 */
+.sub_list .special_color1 {
+    display: block;
+    color: #D2691E;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 10px;
+}
 /* 중간 배너 글자 유형,폰트,크기 조정 및 색상,위치 조정 */
 .MD .md_pick {
     text-align: center;
