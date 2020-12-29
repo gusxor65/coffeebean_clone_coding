@@ -414,3 +414,292 @@
     background-color: white;
     color: rgb(243, 130, 0);
 }
+/* 슬라이드 메뉴 마우스 오버시 변화 */
+.new_info figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.new_info figure:hover img {
+    opacity: .8;
+}
+
+/* 인스타 메뉴 마우스 오버시 줌인 효과 */
+.insta figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+/* 인스타 메뉴 마우스 오버시 줌인 효과 */
+.insta figure:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 변화 */
+.pick_info figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info figure:hover img {
+    opacity: .8;
+}
+
+/* 슬라이드 메뉴 마우스 오버 설정 */
+.pick_info2 {
+    position: relative;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2 .quickview {
+    position: absolute;
+    display: block;
+    top: 210px;
+    bottom: 45px;
+    left: 45px;
+    right: 45px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    background-color: rgb(243, 130, 0);
+    text-align: center;
+    font-family: 'Archer-Semibold';
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .1s, visibility .1s;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2:hover .quickview {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* 슬라이드 메뉴 마우스 오버 설정 */
+.pick_info2_1 {
+    position: relative;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_1 .quickview {
+     position: absolute;
+    display: block;
+    top: 210px;
+    bottom: 45px;
+    left: 45px;
+    right: 45px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    background-color: rgb(243, 130, 0);
+    text-align: center;
+    font-family: 'Archer-Semibold';
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .1s, visibility .1s;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_1:hover .quickview {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* 슬라이드 메뉴 마우스 오버 설정 */
+.pick_info2_2 {
+    position: relative;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_2 .quickview {
+   position: absolute;
+    display: block;
+    top: 210px;
+    bottom: 45px;
+    left: 45px;
+    right: 45px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    background-color: rgb(243, 130, 0);
+    text-align: center;
+    font-family: 'Archer-Semibold';
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .1s, visibility .1s;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_2:hover .quickview {
+    visibility: visible;
+    opacity: 1;
+}
+/* 슬라이드 메뉴 마우스 오버 설정 */
+.pick_info2_3 {
+    position: relative;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_3 .quickview {
+     position: absolute;
+    display: block;
+    top: 210px;
+    bottom: 45px;
+    left: 45px;
+    right: 45px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    background-color: rgb(243, 130, 0);
+    text-align: center;
+    font-family: 'Archer-Semibold';
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .1s, visibility .1s;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_3:hover .quickview {
+    visibility: visible;
+    opacity: 1;
+}
+/* 슬라이드 메뉴 마우스 오버 설정 */
+.pick_info2_4 {
+    position: relative;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_4 .quickview {
+    position: absolute;
+    display: block;
+    top: 210px;
+    bottom: 45px;
+    left: 45px;
+    right: 45px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    background-color: rgb(243, 130, 0);
+    text-align: center;
+    font-family: 'Archer-Semibold';
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .1s, visibility .1s;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_4:hover .quickview {
+    visibility: visible;
+    opacity: 1;
+}
+/* 슬라이드 메뉴 마우스 오버 설정 */
+.pick_info2_5 {
+    position: relative;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_5 .quickview {
+   position: absolute;
+    display: block;
+    top: 210px;
+    bottom: 45px;
+    left: 45px;
+    right: 45px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    background-color: rgb(243, 130, 0);
+    text-align: center;
+    font-family: 'Archer-Semibold';
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .1s, visibility .1s;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_5:hover .quickview {
+    visibility: visible;
+    opacity: 1;
+}
+/* 슬라이드 메뉴 마우스 오버 설정 */
+.pick_info2_6 {
+    position: relative;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_6 .quickview {
+   position: absolute;
+    display: block;
+    top: 210px;
+    bottom: 45px;
+    left: 45px;
+    right: 45px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    background-color: rgb(243, 130, 0);
+    text-align: center;
+    font-family: 'Archer-Semibold';
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .1s, visibility .1s;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_6:hover .quickview {
+    visibility: visible;
+    opacity: 1;
+}
+/* 슬라이드 메뉴 마우스 오버 설정 */
+.pick_info2_7 {
+    position: relative;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_7 .quickview {
+   position: absolute;
+    display: block;
+    top: 210px;
+    bottom: 45px;
+    left: 45px;
+    right: 45px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    background-color: rgb(243, 130, 0);
+    text-align: center;
+    font-family: 'Archer-Semibold';
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .1s, visibility .1s;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.pick_info2_7:hover .quickview {
+    visibility: visible;
+    opacity: 1;
+}
