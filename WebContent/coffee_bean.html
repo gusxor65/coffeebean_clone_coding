@@ -31,7 +31,7 @@
                 <img src="image/main.png" alt="메인사진">
                 <ul class="menu clearfix">
                     <li class="menu-item pull-left">
-                <a href="#">BUY ONLINE</a>
+                <a href="#" class="height_title">BUY ONLINE</a>
                 <div class="sub_menu">
                             <div class="sub">
                                 <div class="sub_list">
@@ -101,7 +101,7 @@
                 </ul>
                 <ul class="menu clearfix">
                     <li class="menu-item pull-left">
-                        <a href="#">MEMBER'S CLUB</a>
+                        <a href="#" class="height_title">MEMBER'S CLUB</a>
                         <div class="sub_menu">
                             <div class="sub2">
                                 <div class="sub_list">
@@ -128,7 +128,7 @@
                 </ul>
                 <ul class="menu clearfix">
                     <li class="menu-item pull-left">
-                        <a href="#">MENU</a>
+                        <a href="#" class="height_title">MENU</a>
                         <div class="sub_menu">
                             <div class="sub3">
                                 <div class="sub_list">
@@ -179,7 +179,7 @@
                 </ul>
                 <ul class="menu clearfix">
                     <li class="menu-item pull-left">
-                        <a href="#">STORE</a>
+                        <a href="#" class="height_title">STORE</a>
                         <div class="sub_menu">
                             <div class="sub4">
                                 <ul>
@@ -192,7 +192,7 @@
                 </ul>
                 <ul class="menu clearfix">
                     <li class="menu-item pull-left">
-                        <a href="#">THE COFFEE BEAN</a>
+                        <a href="#" class="height_title">THE COFFEE BEAN</a>
                         <div class="sub5">
                             <div class="sub_list">
                                 <h2 class="sub_title"><a href="#">커피빈 코리아</a></h2>
@@ -228,7 +228,7 @@
                 </ul>
                 <ul class="menu clearfix">
                     <li class="menu-item pull-left">
-                        <a href="#">CBTL</a>
+                        <a href="#" class="height_title">CBTL</a>
                         <div class="sub6">
                             <div class="sub_list">
                                 <h2 class="sub_title"><a href="#">CBTL 가이드</a></h2>
@@ -256,7 +256,7 @@
     <!-- 중간 배너 사진 -->
         <div class="middle_banner">
             <div class="banner">
-                <img src="image/mainbanner.png" alt="배너사진">
+                <a href="#"><img src="image/mainbanner.png" alt="배너사진"></a>
             </div>
         </div>
     </section>
@@ -274,7 +274,7 @@
             <span class="name">[1+1]커피빈 드립백(모자카바 블렌드) 5개입</span><br />
             <span class="price">5,900원</span></div>
         <div><img src="image/pick3.png" alt="사진3">
-            <span class="name">[1+1]커피빈 드립백(콜림비아 다크) 5개입</span></br />
+            <span class="name">[1+1]커피빈 드립백(콜림비아 다크) 5개입</span><br />
             <span class="price">5,900원</span></div>
         <div><img src="image/pick4.png" alt="사진4">
             <span class="name">커피빈 헤이즐넛 라떼 파우치 (10개입)</span><br />
@@ -304,6 +304,8 @@
             <br />
             <span class="price">13,000원</span></div>
     </div>
+    <button id="btnControls_play" class="play"><i class="fas fa-play"></i></button>
+    <button id="btnControls_pause" class="pause"><i class="fas fa-pause"></i></button>
     <!-- 중간 메뉴 및 슬라이드 사진 2 -->
     <section>
         <header class="new_name">
@@ -336,6 +338,8 @@
             <div><img src="image/new12.png" alt="사진12">
                 <span class="new_name1">2020 10 El Salvador Honey</span></div>
         </div>
+        <button id="btnControls_play2" class="play2"><i class="fas fa-play"></i></button>
+        <button id="btnControls_pause2" class="pause2"><i class="fas fa-pause"></i></button>
     <!-- 인스타그램 링크 클래스 -->
 	<div class="insta">
 		<header class="hashtag">
@@ -553,6 +557,14 @@
         });
 
     });
+    $('.pause').on('click', function() {
+        $('.pick_info')
+            .slick('slickPause')
+    });
+    $('.play').on('click', function() {
+        $('.pick_info')
+            .slick('slickPlay')
+    });
     $(document).ready(function() {
         $('.new_info').slick({
 
@@ -576,6 +588,14 @@
 
         });
 
+    });
+    $('.pause2').on('click', function() {
+        $('.new_info')
+            .slick('slickPause')
+    });
+    $('.play2').on('click', function() {
+        $('.new_info')
+            .slick('slickPlay')
     });
     </script>
 </body>
