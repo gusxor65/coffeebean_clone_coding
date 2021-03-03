@@ -1,0 +1,378 @@
+@charset "utf-8";
+
+/** 전체 밑줄 제거 */
+* {
+    text-decoration: none;
+}
+
+.top1 a {
+    color: black;
+}
+
+/** 상단 메뉴 마우스 올렸을시 색상 변경 */
+.sub .sub_list a:hover {
+    color: black;
+}
+
+.height_title:hover {
+    color: rgb(243, 130, 0);
+}
+
+.icon .height_title {
+    display: block;
+    height: 84px;
+    padding-top: 38px;
+}
+
+/** 상단메뉴 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub {
+    width: 1200px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+    position: absolute;
+    z-index: 1000;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+
+
+/** 상단메뉴2 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub2 {
+    width: 630px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+    position: absolute;
+    z-index: 1000;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+
+
+/** 상단메뉴3 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub3 {
+    width: 880px;
+    padding: 40px 40px 35px;
+    margin-left: -82px;
+    position: absolute;
+    z-index: 1000;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+
+
+/** 상단메뉴4 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub4 {
+    width: 250px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+
+    position: absolute;
+    z-index: 1000;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+
+
+/** 상단메뉴3 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub5 {
+    width: 980px;
+    padding: 40px 40px 35px;
+    margin-left: -642px;
+    position: absolute;
+    z-index: 1000;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+
+
+/** 상단메뉴4 디스플레이 효과 부여 및 간격 및 색상 조정 */
+.sub6 {
+    width: 250px;
+    padding: 40px 40px 35px;
+    margin-left: -42px;
+    position: absolute;
+    z-index: 1000;
+    background: rgb(238, 238, 238);
+    display: none;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(238, 238, 238);
+    z-index: 1000;
+}
+
+/** 상단 메뉴 위치 조정 및 굵기 및 색상 조정 */
+.top1 .icon1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(238, 238, 238);
+    width: auto;
+}
+
+/** 상단 메뉴 텍스트 위치 조정 및 글자 크기 조정 */
+.top1 .icon1 span {
+    margin-left: -330px;
+    cursor: pointer;
+    font-size: 14px;
+    padding-right: 350px;
+}
+
+/** 돋보기 아이콘 색상 변경 */
+.top1 .icon i {
+    color: rgb(243, 130, 0);
+}
+
+/* 상단 메뉴 위치 조정 및 글자 크기,폰트 굵기 조정 */
+.top1 .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 30px;
+    padding-right: 440px;
+    height: 87px;
+    font-weight: bold;
+    font-family: 'NanumBarunGothic';
+
+}
+
+/* 상단메뉴 이미지 크기 및 위치 조정 */
+.top1 .icon img {
+    padding-left: 300px;
+    height: 80px;
+}
+
+/** 상단 메뉴 슬라이드 위치 및 속성 조정 */
+.sub_list {
+    display: block;
+    width: 200px;
+    padding: 40px 30px;
+    float: left;
+}
+
+.sub_list1 {
+    display: block;
+    width: 200px;
+    padding: 40px 30px;
+    float: left;
+}
+
+/** 상단 메뉴 이름 크기 및 간격 조정 */
+.menu_name {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/** 상단 메뉴2 이름 크기 및 간격 조정 */
+.sub2 .menu_name {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/** 상단 메뉴3 이름 크기 및 간격 조정 */
+.sub3 .menu_name {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/** 상단 메뉴4 이름 크기 및 간격 조정 */
+.sub4 .menu_name {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/** 상단 메뉴5 이름 크기 및 간격 조정 */
+.sub5 .menu_name {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/** 상단 메뉴 6 폰트 굵기 설정 */
+.sub6 .sub_title {
+    font-weight: normal;
+}
+
+/** 상단 메뉴 특정메뉴 이름 크기 및 색상 간격조정 */
+.sub_list .special_color1 {
+    display: block;
+    color: rgb(243, 130, 0);
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/* 탑 메뉴 아래에 자신이 속한 위치 안내 클래스 */
+
+/** 위치 안내클래스에 대한 높이 조정 및 색상 조정 */
+.top2_location {
+    height: 30px;
+    background: rgb(105, 81, 157);
+    overflow: hidden;
+    /* 컨텐츠를 만들때 넘치는 부분들을 숨겨주거나 또는 컨텐츠의 영역을 자식요소의 크기변동에 따라 유동성있게 변화시켜주는 명령어 */
+}
+
+/* ul 태그 안에 있는 속성의 길이 조정 */
+.location_content {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto; */
+}
+
+/* ul 태그 안에 있는 a태그 텍스트 수정 -> 글자 간격 , 폰트 , 글자크기 , 글자 폭 , 글자 굵기 , 글자 높이 */
+.location_content a {
+    font-weight: normal;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.05em;
+    line-height: 30px;
+}
+
+/* li태그 float 속성으로 정렬 , 띄어지게 간격 조정 및 백그라운드 화살표 이미지 추가 */
+.location_content_list {
+    float: left;
+}
+
+.location_content_list1 {
+    float: left;
+    padding-left: 25px;
+    margin-left: 20px;
+    background: url(../images/img_arr_location.png) no-repeat 0 center;
+}
+
+/* 중간 메뉴 리스트들 (커피종류 및 각 메뉴들) */
+/* 중간 메뉴 리스트 총 위치 및 간격 조정 */
+.middle1 {
+    width: 1200px;
+    overflow: hidden;
+    margin: 35px auto 130px;
+    /* margin-top: 35px;
+    margin-right: auto;
+    margin-bottom: 130px;
+    margin-left: auto; */
+    clear: both;
+}
+
+/* 중간 메뉴 왼쪽 정렬 후 길이 조정 */
+.middle1_content_list {
+    float: left;
+    width: 200px;
+}
+
+/* ul 태그 첫번째 li태그에 위치와 간격 조정 */
+.middle1_content_list li:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+/* ul 태그 li태그에 위치와 간격 조정과 위에 간격줄 추가 */
+.middle1_content_list1 {
+    margin: 35px 0 0;
+    padding: 35px 0 0;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+/* li 태그 안에 h2태그 -> (간격 , 글자크기 , 글자굵기 , 글자 색상) */
+.middle1_content_list h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(207, 102, 26);
+}
+
+/* ul -> li -> a태그 -> (간격 및 크기 속성 추가) */
+.content_list_item li a {
+    display: block;
+    font-size: 13px;
+    color: rgb(47, 28, 17);
+    line-height: 26px;
+    text-transform: uppercase;
+    /* 이 속성을 사용하면 텍스트를 모두 대문자 로 표시 할 수 있습니다. */
+}
+
+/* .content_list_item 안에 a태그 -> a태그에 마우스를 올렸을 때 색상변화 */
+.content_list_item a:hover {
+    color: rgb(207, 102, 26);
+}
+
+/* 중간 메뉴 슬라이드 박스 */
+/* 중간 메뉴 슬라이드 박스 전체 사이즈 및 위치 조정 */
+.middle2 {
+    width: 900px;
+    float: right;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 변화 */
+.sildebox_item_list1 figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+/* 슬라이드 메뉴 마우스 오버시 효과 */
+.sildebox_item_list1 figure:hover img {
+    opacity: .8;
+}
+
+/* 플레이 / 퍼즈 버튼 정제 */
+.btn_pause {
+    background: url(../images/btn_pause.png) no-repeat 0 0;
+}
+
+#btnControls_pause {
+    width: 13px;
+    height: 13px;
+    display: block;
+    margin: 0 0 0 -57px;
+    position: absolute;
+    right: 940px;
+    top: 496px;
+    background-color: white;
+    text-indent: -9999px;
+}
+
+.btn_play {
+    background: url(../images/btn_play.png) no-repeat 0 0;
+}
+
+#btnControls_play {
+    width: 13px;
+    height: 13px;
+    display: block;
+    margin: 0 0 0 -57px;
+    position: absolute;
+    right: 960px;
+    top: 496px;
+    background-color: white;
+    text-indent: -9999px;
+}

@@ -15,6 +15,7 @@
     display: block;
     height: 84px;
     padding-top: 38px;
+    color:black;
 }
 
 /** 디스플레이 효과 부여 */
@@ -146,6 +147,7 @@
     width: 200px;
     padding: 40px 30px;
     float: left;
+    
 }
 
 /** 상단 메뉴 이름 크기 및 간격 조정 */
@@ -154,6 +156,12 @@
     font-size: 13px;
     font-weight: normal;
     margin-top: 10px;
+    color:black;
+}
+.sub_list .sub_title {
+	display : block;
+	color:black;
+	
 }
 /** 상단 메뉴2 이름 크기 및 간격 조정 */
 .sub2 .menu_name {
@@ -364,10 +372,12 @@
 }
 /*하단 메뉴 아이콘*/
 .sns_icon {
+	display:block;
    float: right;
     padding-right: 360px;
     padding-top: 28px;
     font-size: 30px;
+    color:black;
 }
 /*하단 메뉴 정보 */
 .bottom {
